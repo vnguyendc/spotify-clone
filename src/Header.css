@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    flex: 0.3;
+    /* justify-content: space-between; */
+    /* padding: 10px; */
+}
+
+.header__search {
+    margin-left: 5px;
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 3px;
+    min-width: 70px;
+}
+
+.header__search > input {
+    border: none;
+    width: 100%;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+
+}
+
+.header__right > h4 {
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.header__icon {
+    cursor: pointer;
+}
