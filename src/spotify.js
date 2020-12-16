@@ -2,7 +2,7 @@ export const authEndpoint =
 "https://accounts.spotify.com/authorize";
 
 // when deploying, change this to the public URL
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://peaceful-woodland-47913.herokuapp.com/";
 
 const clientId = "49e0d5118da04bf2805d96f6769ab991";
 
